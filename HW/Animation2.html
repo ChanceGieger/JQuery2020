@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animation 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#box1").click(function(){
+          $("#box1").animate({
+            height: '314px'
+          });
+          $("#box1").animate({
+            width: '100%'
+          });
+          $("#box1").animate({
+            marginLeft: '94.679%',
+            width: '100px'
+          });
+          $("#box1").animate({
+            height: '100px'
+          });
+          $("#box1").animate({
+            marginLeft: '0%'
+          });
+        });
+        $("#box1").click(function(){
+          $("#box2").animate({
+            height: '314px'
+          });
+          $("#box2").animate({
+            width: '100%'
+          });
+          $("#box2").animate({
+            marginLeft: '94.679%',
+            width: '100px'
+          });
+          $("#box2").animate({
+            height: '100px'
+          });
+          $("#box2").animate({
+            marginLeft: '0%',
+            marginTop: '400px'
+          });
+          $("#box2").animate({
+            marginTop: '0px'
+          });
+        });
+        $("#box1").click(function(){
+          $("#box3").animate({
+            height: '314px'
+          });
+          $("#box3").animate({
+            width: '100%'
+          });
+          $("#box3").animate({
+            marginLeft: '94.679%',
+            width: '100px'
+          });
+          $("#box3").animate({
+            height: '100px'
+          });
+          $("#box3").animate({
+            marginLeft: '44.445%'
+          });
+          $("#box3").animate({
+            marginTop: '200px'
+          });
+          $("#box3").animate({
+            marginLeft: '0px',
+            marginTop: '0px'
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="box1" style="display:block;height:100px;width:100px;background-color:crimson;"></div>
+    <div id="box2" style="display:block;height:100px;width:100px;background-color:Silver;"></div>
+    <div id="box3" style="display:block;height:100px;width:100px;background-color:gold;"></div>
+  </body>
+</html>
